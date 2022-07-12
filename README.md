@@ -1,1 +1,3 @@
+[![pages-build-deployment](https://github.com/pysio2007/PanLingGuYu.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/pysio2007/PanLingGuYu.github.io/actions/workflows/pages/pages-build-deployment)
+[![Release](https://github.com/pysio2007/PanLingGuYu.github.io/actions/workflows/release.yml/badge.svg)](https://github.com/pysio2007/PanLingGuYu.github.io/actions/workflows/release.yml)
 私人服务器的自动备份库
