@@ -1,19 +1,31 @@
-[19:10:57] [Server thread/INFO]: Starting minecraft server version 1.8.3
-[19:10:57] [Server thread/INFO]: Loading properties
-[19:10:57] [Server thread/INFO]: Default game type: ADVENTURE
-[19:10:57] [Server thread/INFO]: Generating keypair
-[19:10:57] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:10:57] [Server thread/INFO]: Using epoll channel type
-[19:10:57] [Server thread/INFO]: Preparing level "world"
-[19:10:57] [Server thread/INFO]: Preparing start region for level 0
-[19:10:58] [Server thread/INFO]: Done (0.992s)! For help, type "help" or "?"
-[19:11:06] [Server thread/INFO]: Stopping server
-[19:11:06] [Server thread/INFO]: Saving players
-[19:11:06] [Server thread/INFO]: Saving worlds
-[19:11:06] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[19:11:06] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[19:11:06] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[19:11:06] [Server Shutdown Thread/INFO]: Stopping server
-[19:11:06] [Server Shutdown Thread/INFO]: Saving players
-[19:11:06] [Server Shutdown Thread/INFO]: Saving worlds
-[19:11:06] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/Overworld
+[19:34:52] [Server thread/INFO]: Starting minecraft server version 1.8.3
+[19:34:52] [Server thread/INFO]: Loading properties
+[19:34:52] [Server thread/INFO]: Default game type: ADVENTURE
+[19:34:52] [Server thread/INFO]: Generating keypair
+[19:34:52] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:34:52] [Server thread/INFO]: Using epoll channel type
+[19:34:52] [Server thread/INFO]: Preparing level "world"
+[19:34:53] [Server thread/INFO]: Preparing start region for level 0
+[19:34:53] [Server thread/INFO]: Done (1.050s)! For help, type "help" or "?"
+[19:34:53] [Server thread/ERROR]: Couldn't load server icon
+java.lang.IllegalStateException: Must be 64 pixels wide
+	at org.apache.commons.lang3.Validate.validState(Validate.java:826) ~[minecraft_server.1.8.3.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:498) [minecraft_server.1.8.3.jar:?]
+	at net.minecraft.server.MinecraftServer.run(SourceFile:426) [minecraft_server.1.8.3.jar:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_332]
+[19:35:31] [User Authenticator #1/INFO]: UUID of player Akaere is c0c7e8cf-107f-4b59-bc91-f82c643de9d0
+[19:35:31] [Server thread/INFO]: Akaere[/118.114.200.209:56352] logged in with entity id 3 at (1327.2866706812333, 76.0, 42.79801735112455)
+[19:35:31] [Server thread/INFO]: Akaere joined the game
+[19:37:07] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[19:41:51] [Server thread/INFO]: Akaere lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[19:41:51] [Server thread/INFO]: Akaere left the game
+[19:42:01] [Server thread/INFO]: Stopping server
+[19:42:01] [Server thread/INFO]: Saving players
+[19:42:01] [Server thread/INFO]: Saving worlds
+[19:42:01] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[19:42:01] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[19:42:01] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[19:42:01] [Server Shutdown Thread/INFO]: Stopping server
+[19:42:01] [Server Shutdown Thread/INFO]: Saving players
+[19:42:01] [Server Shutdown Thread/INFO]: Saving worlds
+[19:42:01] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/Overworld
