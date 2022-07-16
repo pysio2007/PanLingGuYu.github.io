@@ -1,13 +1,90 @@
-[15:18:08] [Server thread/INFO]: Unknown command. Try /help for a list of commands
-[15:18:11] [Server thread/INFO]: Stopping server
-[15:18:11] [Server thread/INFO]: Saving players
-[15:18:11] [Server thread/INFO]: Saving worlds
-[15:18:11] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[15:18:11] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[15:18:11] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[15:18:11] [Server Shutdown Thread/INFO]: Stopping server
-[15:18:11] [Server Shutdown Thread/INFO]: Saving players
-[15:18:11] [Server Shutdown Thread/INFO]: Saving worlds
-[15:18:11] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/Overworld
-[15:18:11] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/Nether
-[15:18:11] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/The End
+[20:34:21] [User Authenticator #3/INFO]: UUID of player changtianyise is c4d77f71-7be7-468e-b8ab-6c562534be17
+[20:34:21] [Server thread/INFO]: changtianyise[/120.235.116.19:23367] logged in with entity id 847 at (184.5, 192.0, -1767.5)
+[20:34:21] [Server thread/INFO]: changtianyise joined the game
+[20:35:51] [User Authenticator #4/INFO]: UUID of player Akaere is c0c7e8cf-107f-4b59-bc91-f82c643de9d0
+[20:35:51] [Server thread/INFO]: Akaere[/182.139.177.137:52869] logged in with entity id 979 at (1331.4057094451857, 77.0, 48.45628773552122)
+[20:35:51] [Server thread/INFO]: §eAkaere§r joined the game
+[20:36:04] [Server thread/INFO]: changtianyise has just earned the achievement [Taking Inventory]
+[20:38:35] [User Authenticator #5/INFO]: UUID of player Losdream_ is 919b9b4d-2c2f-4180-8963-f6c6adbea594
+[20:38:35] [Server thread/INFO]: Losdream_[/183.251.188.114:22284] logged in with entity id 1056 at (184.5, 192.0, -1767.5)
+[20:38:35] [Server thread/INFO]: Losdream_ joined the game
+[20:38:39] [Server thread/INFO]: Losdream_ has just earned the achievement [Taking Inventory]
+[20:39:00] [Server thread/INFO]: <§eAkaere§r> Li_qui, Losdream_, MCluo_xi, Akaere, MCluo_ying, MC_Qim and changtianyise
+[20:39:14] [User Authenticator #6/INFO]: UUID of player MCluo_xi is f75a6d24-5773-45e9-b68d-710c75e65f81
+[20:39:14] [Server thread/INFO]: MCluo_xi[/14.112.33.100:53825] logged in with entity id 1076 at (1311.4549525516538, 76.0, 46.97813644681855)
+[20:39:14] [Server thread/INFO]: §eMCluo_xi§r joined the game
+[20:44:46] [Server thread/INFO]: <Losdream_> ___
+[20:44:47] [Server thread/INFO]: <§eMCluo_xi§r> W_W
+[20:44:48] [Server thread/INFO]: <Losdream_> ____
+[20:44:49] [Server thread/INFO]: <Losdream_> _____
+[20:45:00] [Server thread/INFO]: <§eMCluo_xi§r> 中文
+[20:45:06] [Server thread/INFO]: changtianyise fell out of the world
+[20:45:07] [Server thread/INFO]: <changtianyise> q去
+[20:45:15] [Server thread/INFO]: Losdream_ fell out of the world
+[20:45:49] [Server thread/INFO]: com.mojang.authlib.GameProfile@186e51b1[id=<null>,name=MC_Qim,properties={},legacy=false] (/120.229.155.57:2896) lost connection: Disconnected
+[20:45:54] [User Authenticator #7/INFO]: UUID of player MC_Qim is 3da58b28-11e9-44dc-975c-a8bfe0853432
+[20:45:54] [Server thread/INFO]: MC_Qim[/120.229.155.57:3033] logged in with entity id 1846 at (184.5, 192.0, -1767.5)
+[20:45:54] [Server thread/INFO]: MC_Qim joined the game
+[20:46:10] [Server thread/INFO]: <changtianyise> __
+[20:46:12] [Server thread/INFO]: <Losdream_> _
+[20:46:18] [Server thread/INFO]: <§eMCluo_xi§r> 我的_呢
+[20:46:23] [Server thread/INFO]: <Losdream_> ___________
+[20:46:25] [Server thread/INFO]: <Losdream_> ___________
+[20:46:25] [Server thread/INFO]: <§eAkaere§r> _
+[20:46:37] [Server thread/INFO]: <§eMCluo_xi§r> _____________
+[20:46:41] [Server thread/INFO]: changtianyise fell out of the world
+[20:46:41] [Server thread/INFO]: Losdream_ fell out of the world
+[20:46:41] [Server thread/INFO]: MC_Qim fell out of the world
+[20:46:47] [Server thread/INFO]: MC_Qim lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[20:46:47] [Server thread/INFO]: MC_Qim left the game
+[20:47:13] [User Authenticator #8/INFO]: UUID of player MC_Qim is 3da58b28-11e9-44dc-975c-a8bfe0853432
+[20:47:13] [Server thread/INFO]: MC_Qim[/120.229.155.57:2748] logged in with entity id 1887 at (1314.369139252307, 76.0, 45.97374916933923)
+[20:47:13] [Server thread/INFO]: MC_Qim joined the game
+[20:51:20] [Server thread/INFO]: MC_Qim fell from a high place
+[20:51:53] [Server thread/INFO]: MC_Qim has just earned the achievement [Taking Inventory]
+[20:57:44] [Server thread/INFO]: <§eLosdream_§r> wo qu xi ge zao zai lai
+[20:58:33] [Server thread/INFO]: <§eLosdream_§r> wo qu xi zao
+[20:58:35] [Server thread/INFO]: <§eLosdream_§r> bye
+[20:58:42] [Server thread/INFO]: <§eLosdream_§r> i go to take a shower
+[20:58:49] [Server thread/INFO]: <§eLosdream_§r> see you then leter
+[20:58:54] [Server thread/INFO]: Losdream_ lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[20:58:54] [Server thread/INFO]: §eLosdream_§r left the game
+[21:12:29] [User Authenticator #9/INFO]: UUID of player Losdream_ is 919b9b4d-2c2f-4180-8963-f6c6adbea594
+[21:12:29] [Server thread/INFO]: Losdream_[/183.251.188.114:22213] logged in with entity id 3438 at (3285.745780214937, 20.0, -140.1786043887187)
+[21:12:29] [Server thread/INFO]: §eLosdream_§r joined the game
+[21:12:31] [Server thread/INFO]: <§eLosdream_§r> hi
+[21:24:55] [Server thread/INFO]: <§eMCluo_xi§r> 271 44 -190
+[21:37:07] [Server thread/INFO]: <§eAkaere§r> &c左焰：嘿，同族的朋友，我在這兒呢，就在木材堆的後面。&r
+[21:37:07] [Server thread/INFO]: <§eAkaere§r> &c左焰：嘿，同族的朋友，我在這兒呢，就在木材堆的後面。&r
+[21:38:34] [Server thread/INFO]: <§eLosdream_§r> WHERE ARE YOU
+[21:38:55] [Server thread/INFO]: <§eMCluo_xi§r> 要不进麦？
+[21:53:28] [Server thread/INFO]: <§eAkaere§r> 3
+[21:59:29] [Server thread/INFO]: <§eLosdream_§r> I JUST CAN PLAY 1 MINUTE
+[21:59:37] [Server thread/INFO]: <§eLosdream_§r> (
+[21:59:38] [Server thread/INFO]: Losdream_ lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[21:59:38] [Server thread/INFO]: §eLosdream_§r left the game
+[21:59:47] [Server thread/INFO]: <§eMCluo_xi§r> hope people have notthing
+[22:02:09] [Server thread/INFO]: <§eAkaere§r> 2142 59 23
+[22:03:10] [Server thread/INFO]: <§eAkaere§r> 2105 59 26
+[22:03:25] [Server thread/INFO]: <§eAkaere§r> 2081 59 24
+[22:03:30] [Server thread/INFO]: <§eAkaere§r> 2081 59 24
+[22:04:07] [Server thread/INFO]: <§eAkaere§r> 2103 59 41
+[22:04:16] [Server thread/INFO]: <§eAkaere§r> 2103 59 41
+[22:04:45] [Server thread/INFO]: MC_Qim lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[22:04:45] [Server thread/INFO]: §eMC_Qim§r left the game
+[22:04:55] [User Authenticator #10/INFO]: UUID of player MC_Qim is 3da58b28-11e9-44dc-975c-a8bfe0853432
+[22:04:55] [Server thread/INFO]: MC_Qim[/120.229.155.57:3034] logged in with entity id 13511 at (2121.238679741113, 61.0, 48.44939636383288)
+[22:04:55] [Server thread/INFO]: §eMC_Qim§r joined the game
+[22:06:12] [Server thread/INFO]: <§eAkaere§r> 你獲得了青龍的祝福-龍的鱗片，祝福化為一道光芒被你吸收了。
+[22:07:09] [Server thread/INFO]: MC_Qim lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[22:07:09] [Server thread/INFO]: §eMC_Qim§r left the game
+[22:07:25] [Server thread/INFO]: changtianyise lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
+[22:07:25] [Server thread/INFO]: §echangtianyise§r left the game
+[22:07:40] [Server thread/INFO]: Stopping server
+[22:07:40] [Server thread/INFO]: Saving players
+[22:07:40] [Server thread/INFO]: Saving worlds
+[22:07:40] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[22:07:40] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[22:07:40] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[22:07:40] [Server Shutdown Thread/INFO]: Stopping server
+[22:07:40] [Server Shutdown Thread/INFO]: Saving players
