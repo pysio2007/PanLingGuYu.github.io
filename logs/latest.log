@@ -1,14 +1,330 @@
-[00:00:40] [Server thread/INFO]: Akaere lost connection: TextComponent{text='Disconnected', siblings=[], style=Style{hasParent=false, color=null, bold=null, italic=null, underlined=null, obfuscated=null, clickEvent=null, hoverEvent=null, insertion=null}}
-[00:00:40] [Server thread/INFO]: §eAkaere§r left the game
-[00:00:46] [Server thread/INFO]: Stopping server
-[00:00:46] [Server thread/INFO]: Saving players
-[00:00:46] [Server thread/INFO]: Saving worlds
-[00:00:46] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[00:00:46] [Server thread/INFO]: Saving chunks for level 'world'/Nether
-[00:00:46] [Server thread/INFO]: Saving chunks for level 'world'/The End
-[00:00:46] [Server Shutdown Thread/INFO]: Stopping server
-[00:00:46] [Server Shutdown Thread/INFO]: Saving players
-[00:00:46] [Server Shutdown Thread/INFO]: Saving worlds
-[00:00:46] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/Overworld
-[00:00:46] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/Nether
-[00:00:46] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/The End
+[18:41:02] [Server thread/INFO]: Starting minecraft server version 1.8.3
+[18:41:02] [Server thread/INFO]: Loading properties
+[18:41:02] [Server thread/INFO]: Default game type: ADVENTURE
+[18:41:02] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-07ff818-0a645a2 (MC: 1.8.3) (Implementing API version 1.8.3-R0.1-SNAPSHOT)
+[18:41:02] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:41:02] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:41:02] [Server thread/INFO]: Debug logging is disabled
+[18:41:02] [Server thread/INFO]: Data value allowed items: 
+[18:41:02] [Server thread/INFO]: Generating keypair
+[18:41:02] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:41:02] [Server thread/INFO]: Using epoll channel type
+[18:41:02] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[18:41:03] [Server thread/INFO]: [ViaVersion] Loading ViaVersion v4.3.1
+[18:41:03] [Server thread/INFO]: [ViaVersion] ViaVersion 4.3.1 is now loaded, injecting!
+[18:41:03] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading 1.12 -> 1.13 mappings...
+[18:41:03] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading 1.13 -> 1.13.2 mappings...
+[18:41:03] [Via-Mappingloader-2/INFO]: [ViaVersion] Loading 1.13.2 -> 1.14 mappings...
+[18:41:03] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[18:41:03] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.14 -> 1.15 mappings...
+[18:41:03] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.15 -> 1.16 mappings...
+[18:41:03] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.16 -> 1.16.2 mappings...
+[18:41:03] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.16.2 -> 1.17 mappings...
+[18:41:03] [Via-Mappingloader-3/INFO]: [ViaVersion] Loading 1.17 -> 1.18 mappings...
+[18:41:03] [Via-Mappingloader-4/INFO]: [ViaVersion] Loading 1.18 -> 1.19 mappings...
+[18:41:03] [Server thread/INFO]: [BanManager] Loading BanManager v7.8.0
+[18:41:03] [Server thread/INFO]: [Plan] Loading Plan v5.4 build 1722
+[18:41:04] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[18:41:04] [Server thread/INFO]: Preparing level "world"
+[18:41:04] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:41:04] [Server thread/INFO]: Mob Spawn Range: 4
+[18:41:04] [Server thread/INFO]: Anti X-Ray: true
+[18:41:04] [Server thread/INFO]: 	Engine Mode: 1
+[18:41:04] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:41:04] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:41:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:41:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:41:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:41:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:41:04] [Server thread/INFO]: Random Lighting Updates: false
+[18:41:04] [Server thread/INFO]: Structure Info Saving: true
+[18:41:04] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:41:04] [Server thread/INFO]: Max Entity Collisions: 8
+[18:41:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:41:04] [Server thread/INFO]: Max TNT Explosions: 100
+[18:41:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:41:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:41:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:41:04] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:41:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:41:04] [Server thread/INFO]: View Distance: 10
+[18:41:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:41:04] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:41:04] [Server thread/INFO]: Clear tick list: false
+[18:41:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:41:04] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:41:04] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:41:04] [Server thread/INFO]: Fix TNT directional bias: false
+[18:41:04] [Server thread/INFO]: TNT moves in water: true
+[18:41:04] [Server thread/INFO]: Use legacy TNT explosion height false
+[18:41:04] [Server thread/INFO]: TNT height limit disabled
+[18:41:04] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:41:04] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:41:04] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:41:04] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:41:04] [Server thread/INFO]: Water over lava flow speed: 5
+[18:41:04] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:41:04] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:41:04] [Server thread/INFO]: World async lighting: false
+[18:41:04] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:41:04] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:41:04] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:41:04] [Server thread/INFO]: Mob Spawn Range: 4
+[18:41:04] [Server thread/INFO]: Anti X-Ray: true
+[18:41:04] [Server thread/INFO]: 	Engine Mode: 1
+[18:41:04] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:41:04] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:41:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:41:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:41:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:41:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:41:04] [Server thread/INFO]: Random Lighting Updates: false
+[18:41:04] [Server thread/INFO]: Structure Info Saving: true
+[18:41:04] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:41:04] [Server thread/INFO]: Max Entity Collisions: 8
+[18:41:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:41:04] [Server thread/INFO]: Max TNT Explosions: 100
+[18:41:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:41:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:41:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:41:04] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:41:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:41:04] [Server thread/INFO]: View Distance: 10
+[18:41:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:41:04] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:41:04] [Server thread/INFO]: Clear tick list: false
+[18:41:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:41:04] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:41:04] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:41:04] [Server thread/INFO]: Fix TNT directional bias: false
+[18:41:04] [Server thread/INFO]: TNT moves in water: true
+[18:41:04] [Server thread/INFO]: Use legacy TNT explosion height false
+[18:41:04] [Server thread/INFO]: TNT height limit disabled
+[18:41:04] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:41:04] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:41:04] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:41:04] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:41:04] [Server thread/INFO]: Water over lava flow speed: 5
+[18:41:04] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:41:04] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:41:04] [Server thread/INFO]: World async lighting: false
+[18:41:04] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:41:04] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:41:04] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:41:04] [Server thread/INFO]: Mob Spawn Range: 4
+[18:41:04] [Server thread/INFO]: Anti X-Ray: true
+[18:41:04] [Server thread/INFO]: 	Engine Mode: 1
+[18:41:04] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:41:04] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:41:04] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:41:04] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:41:04] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:41:04] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:41:04] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:41:04] [Server thread/INFO]: Random Lighting Updates: false
+[18:41:04] [Server thread/INFO]: Structure Info Saving: true
+[18:41:04] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:41:04] [Server thread/INFO]: Max Entity Collisions: 8
+[18:41:04] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:41:04] [Server thread/INFO]: Max TNT Explosions: 100
+[18:41:04] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:41:04] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:41:04] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:41:04] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:41:04] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:41:04] [Server thread/INFO]: View Distance: 10
+[18:41:04] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:41:04] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:41:04] [Server thread/INFO]: Clear tick list: false
+[18:41:04] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:41:04] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:41:04] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:41:04] [Server thread/INFO]: Fix TNT directional bias: false
+[18:41:04] [Server thread/INFO]: TNT moves in water: true
+[18:41:04] [Server thread/INFO]: Use legacy TNT explosion height false
+[18:41:04] [Server thread/INFO]: TNT height limit disabled
+[18:41:04] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:41:04] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:41:04] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:41:04] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:41:04] [Server thread/INFO]: Water over lava flow speed: 5
+[18:41:04] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:41:04] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:41:04] [Server thread/INFO]: World async lighting: false
+[18:41:04] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:41:04] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:41:04] [Server thread/INFO]: Preparing start region for level 0 (Seed: 202961)
+[18:41:05] [Server thread/INFO]: Preparing start region for level 1 (Seed: 202961)
+[18:41:05] [Server thread/INFO]: Preparing start region for level 2 (Seed: 202961)
+[18:41:05] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v4.3.1
+[18:41:05] [Server thread/INFO]: [BanManager] Enabling BanManager v7.8.0
+[18:41:05] [Server thread/ERROR]: Error occurred while enabling BanManager v7.8.0 (Is it up to date?)
+java.lang.NoClassDefFoundError: org/slf4j/LoggerFactory
+	at me.confuser.banmanager.common.hikari.HikariConfig.<clinit>(HikariConfig.java:51) ~[?:?]
+	at me.confuser.banmanager.common.BanManagerPlugin.createConnection(BanManagerPlugin.java:292) ~[?:?]
+	at me.confuser.banmanager.common.BanManagerPlugin.setupConnections(BanManagerPlugin.java:282) ~[?:?]
+	at me.confuser.banmanager.common.BanManagerPlugin.enable(BanManagerPlugin.java:168) ~[?:?]
+	at me.confuser.banmanager.bukkit.BMBukkitPlugin.onEnable(BMBukkitPlugin.java:59) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:321) ~[PaperSpigot-1.8.3-R0.1-SNAPSHOT-latest.jar:git-PaperSpigot-07ff818-0a645a2]
+	at org.bukkit.plugin.java.JavaPluginLoader.enablePlugin(JavaPluginLoader.java:335) [PaperSpigot-1.8.3-R0.1-SNAPSHOT-latest.jar:git-PaperSpigot-07ff818-0a645a2]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:405) [PaperSpigot-1.8.3-R0.1-SNAPSHOT-latest.jar:git-PaperSpigot-07ff818-0a645a2]
+	at org.bukkit.craftbukkit.v1_8_R2.CraftServer.loadPlugin(CraftServer.java:356) [PaperSpigot-1.8.3-R0.1-SNAPSHOT-latest.jar:git-PaperSpigot-07ff818-0a645a2]
+	at org.bukkit.craftbukkit.v1_8_R2.CraftServer.enablePlugins(CraftServer.java:316) [PaperSpigot-1.8.3-R0.1-SNAPSHOT-latest.jar:git-PaperSpigot-07ff818-0a645a2]
+	at net.minecraft.server.v1_8_R2.MinecraftServer.r(MinecraftServer.java:410) [PaperSpigot-1.8.3-R0.1-SNAPSHOT-latest.jar:git-PaperSpigot-07ff818-0a645a2]
+	at net.minecraft.server.v1_8_R2.MinecraftServer.k(MinecraftServer.java:376) [PaperSpigot-1.8.3-R0.1-SNAPSHOT-latest.jar:git-PaperSpigot-07ff818-0a645a2]
+	at net.minecraft.server.v1_8_R2.MinecraftServer.a(MinecraftServer.java:331) [PaperSpigot-1.8.3-R0.1-SNAPSHOT-latest.jar:git-PaperSpigot-07ff818-0a645a2]
+	at net.minecraft.server.v1_8_R2.DedicatedServer.init(DedicatedServer.java:261) [PaperSpigot-1.8.3-R0.1-SNAPSHOT-latest.jar:git-PaperSpigot-07ff818-0a645a2]
+	at net.minecraft.server.v1_8_R2.MinecraftServer.run(MinecraftServer.java:557) [PaperSpigot-1.8.3-R0.1-SNAPSHOT-latest.jar:git-PaperSpigot-07ff818-0a645a2]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_332]
+Caused by: java.lang.ClassNotFoundException: org.slf4j.LoggerFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:387) ~[?:1.8.0_332]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:101) ~[PaperSpigot-1.8.3-R0.1-SNAPSHOT-latest.jar:git-PaperSpigot-07ff818-0a645a2]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:86) ~[PaperSpigot-1.8.3-R0.1-SNAPSHOT-latest.jar:git-PaperSpigot-07ff818-0a645a2]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_332]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_332]
+	... 16 more
+[18:41:05] [Server thread/INFO]: [Plan] Enabling Plan v5.4 build 1722
+[18:41:06] [Server thread/INFO]: [Plan] [0;32;22m[m
+[18:41:06] [Server thread/INFO]: [Plan] [0;32;22m           ██▌[m
+[18:41:06] [Server thread/INFO]: [Plan] [0;32;22m     ██▌   ██▌[m
+[18:41:06] [Server thread/INFO]: [Plan] [0;32;22m  ██▌██▌██▌██▌  [0;32;22mPlayer Analytics[m
+[18:41:06] [Server thread/INFO]: [Plan] [0;32;22m  ██▌██▌██▌██▌  [0;37;1mv5.4 build 1722[m
+[18:41:06] [Server thread/INFO]: [Plan] [0;32;22m[m
+[18:41:06] [Server thread/INFO]: [Plan] Locale: 'English' by AuroraLS3
+[18:41:06] [Server thread/INFO]: [Plan] Downloading SQLite Driver, this may take a while...
+[18:41:10] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] Database: Making sure schema is up to date..
+[18:41:10] [Server thread/INFO]: [Plan] SQLite-database connection established.
+[18:41:10] [Plan SQLiteDB-transaction-thread-1/INFO]: [Plan] All database patches applied successfully.
+[18:41:10] [Server thread/INFO]: [Plan] WebServer: Certificate KeyStore File not Found: plugins/Plan/Cert.jks
+[18:41:10] [Server thread/INFO]: [Plan] WebServer: No Certificate -> Using HTTP-server for Visualization.
+[18:41:10] [Server thread/INFO]: [Plan] [0;33;1mWebServer: User Authorization Disabled! (Not secure over HTTP)[m
+[18:41:10] [Server thread/INFO]: [Plan] Webserver running on PORT 8804 ( http://localhost:8804 )
+[18:41:10] [Server thread/INFO]: [Plan] [0;33;1mIP in server.properties is empty & Alternative_IP is not in use. Incorrect links might be given![m
+[18:41:10] [Server thread/WARN]: [Plan] 0.0.0.0 is not a valid address, set up Alternative_IP settings. Incorrect links might be given!
+[18:41:10] [Server thread/INFO]: [Plan] Loading server identifying information
+[18:41:10] [Server thread/INFO]: [Plan] Registering a new server in database with UUID f4b7ae26-7a07-4ff0-80ea-d8eea159f28d
+[18:41:10] [Server thread/INFO]: [Plan] Server identifier loaded: f4b7ae26-7a07-4ff0-80ea-d8eea159f28d
+[18:41:11] [Server thread/INFO]: [Plan] Registered extension: BanManager
+[18:41:11] [Server thread/INFO]: [Plan] Registered extension: ViaVersion
+[18:41:11] [Server thread/WARN]: [Plan] ! ------- Deprecation warning ------- !
+[18:41:11] [Server thread/WARN]: [Plan] Plan version 5.5 will require Java 11 or newer,
+[18:41:11] [Server thread/WARN]: [Plan] consider updating your JVM as soon as possible.
+[18:41:11] [Server thread/WARN]: [Plan] ! ----------------------------------- !
+[18:41:11] [Server thread/INFO]: [Plan] Player Analytics Enabled.
+[18:41:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:41:11] [Server thread/INFO]: Done (7.207s)! For help, type "help" or "?"
+[18:41:11] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.8.x (47)
+[18:41:11] [Server thread/WARN]: [ViaVersion] This version of Minecraft is extremely outdated and support for it has reached its end of life. You will still be able to run Via on this Minecraft version, but we are unlikely to provide any further fixes or help with problems specific to legacy Minecraft versions. Please consider updating to give your players a better experience and to avoid issues that have long been fixed.
+[18:41:11] [Server thread/WARN]: [ViaVersion] You are running an outdated Java version, please consider updating it to at least Java 17 (your version is 1.8.0_332). At some point in the future, ViaVersion will no longer be compatible with this version of Java.
+[18:41:11] [Craft Scheduler Thread - 1/WARN]: [Plan] Downloading GeoLite2 requires accepting GeoLite2 EULA - see 'Data_gathering.Accept_GeoLite2_EULA' in the config.
+[18:41:11] [Craft Scheduler Thread - 1/ERROR]: [Plan] Failed to enable geolocation.
+[18:41:11] [Server thread/INFO]: [BanManager] The following commands are blocked whilst muted:
+[18:41:11] [Server thread/INFO]: [BanManager] msg
+[18:41:11] [Server thread/INFO]: [BanManager] The following commands are blocked whilst soft muted:
+[18:41:11] [Server thread/INFO]: [BanManager] msg
+[18:41:11] [Server thread/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor!
+[18:41:11] [Craft Scheduler Thread - 2/INFO]: [Plan] You're using the latest version.
+[18:43:09] [Craft Scheduler Thread - 4/INFO]: [0;37;1m[0;37;1m> [0;32;22m/plan Help[0;37;1m
+[0;37;1m[0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan server [server]           [0;37;1m[0;37;1m[0;37;22mView the Server Page                [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan servers                   [0;37;1m[0;37;1m[0;37;22mList servers in Database            [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan network                   [0;37;1m[0;37;1m[0;37;22mView the Network Page               [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan player [name/uuid]        [0;37;1m[0;37;1m[0;37;22mView a Player Page                  [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan players                   [0;37;1m[0;37;1m[0;37;22mView the Players Page               [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan search <name/uuid>        [0;37;1m[0;37;1m[0;37;22mSearch for a player name            [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan ingame [name/uuid]        [0;37;1m[0;37;1m[0;37;22mView Player info in game            [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan json [name/uuid]          [0;37;1m[0;37;1m[0;37;22mView json of Player's raw data.     [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan register [--code ${code}] [0;37;1m[0;37;1m[0;37;22mRegister a user for Plan website    [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan unregister [username]     [0;37;1m[0;37;1m[0;37;22mUnregister a user of Plan website   [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan logout <username>         [0;37;1m[0;37;1m[0;37;22mLog out other users from the panel. [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan users                     [0;37;1m[0;37;1m[0;37;22mList all web users                  [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan info                      [0;37;1m[0;37;1m[0;37;22mInformation about the plugin        [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan reload                    [0;37;1m[0;37;1m[0;37;22mRestart Plan                        [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan disable [feature]         [0;37;1m[0;37;1m[0;37;22mDisable the plugin or part of it    [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan db [subcommand]           [0;37;1m[0;37;1m[0;37;22mManage Plan database                [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan export [export kind]      [0;37;1m[0;37;1m[0;37;22mExport html or json files manually  [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan import [import kind]      [0;37;1m[0;37;1m[0;37;22mImport data                         [0;37;1m
+[0;37;1m[0;37;1m
+[0;37;1m[0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;37;22mHover over command or arguments or use '/plan ?' to learn more about them.[0;37;1m[0;37;22mHover over command or arguments or use '/plan ?' to learn more about them.[m
+[18:43:17] [Craft Scheduler Thread - 0/INFO]: > [0;32;22mPlayer Analytics[m
+[18:43:17] [Craft Scheduler Thread - 0/INFO]: [m
+[18:43:17] [Craft Scheduler Thread - 0/INFO]:   [0;32;22mVersion: [0;37;1m5.4 build 1722[m
+[18:43:17] [Craft Scheduler Thread - 0/INFO]:   [0;32;22mUpdate Available: [0;37;1mNo[m
+[18:43:17] [Craft Scheduler Thread - 0/INFO]:   [0;32;22mCurrent Database: [0;37;1mSQLite (OPEN)[m
+[18:43:17] [Craft Scheduler Thread - 0/INFO]:   [0;32;22mConnected to Proxy: [0;37;1mNo[m
+[18:43:17] [Craft Scheduler Thread - 0/INFO]: [m
+[18:43:17] [Craft Scheduler Thread - 0/INFO]: >[m
+[18:43:21] [Craft Scheduler Thread - 5/INFO]: [0;37;1m[0;37;1m> [0;32;22m/plan Help[0;37;1m
+[0;37;1m[0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan server [server]           [0;37;1m[0;37;1m[0;37;22mView the Server Page                [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan servers                   [0;37;1m[0;37;1m[0;37;22mList servers in Database            [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan network                   [0;37;1m[0;37;1m[0;37;22mView the Network Page               [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan player [name/uuid]        [0;37;1m[0;37;1m[0;37;22mView a Player Page                  [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan players                   [0;37;1m[0;37;1m[0;37;22mView the Players Page               [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan search <name/uuid>        [0;37;1m[0;37;1m[0;37;22mSearch for a player name            [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan ingame [name/uuid]        [0;37;1m[0;37;1m[0;37;22mView Player info in game            [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan json [name/uuid]          [0;37;1m[0;37;1m[0;37;22mView json of Player's raw data.     [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan register [--code ${code}] [0;37;1m[0;37;1m[0;37;22mRegister a user for Plan website    [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan unregister [username]     [0;37;1m[0;37;1m[0;37;22mUnregister a user of Plan website   [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan logout <username>         [0;37;1m[0;37;1m[0;37;22mLog out other users from the panel. [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan users                     [0;37;1m[0;37;1m[0;37;22mList all web users                  [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan info                      [0;37;1m[0;37;1m[0;37;22mInformation about the plugin        [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan reload                    [0;37;1m[0;37;1m[0;37;22mRestart Plan                        [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan disable [feature]         [0;37;1m[0;37;1m[0;37;22mDisable the plugin or part of it    [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan db [subcommand]           [0;37;1m[0;37;1m[0;37;22mManage Plan database                [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan export [export kind]      [0;37;1m[0;37;1m[0;37;22mExport html or json files manually  [0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;32;22mplan import [import kind]      [0;37;1m[0;37;1m[0;37;22mImport data                         [0;37;1m
+[0;37;1m[0;37;1m
+[0;37;1m[0;37;1m
+[0;37;1m[0;37;1m[0;37;1m[0;37;22mHover over command or arguments or use '/plan ?' to learn more about them.[0;37;1m[0;37;22mHover over command or arguments or use '/plan ?' to learn more about them.[m
+[18:43:27] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+[18:43:31] [Craft Scheduler Thread - 0/INFO]: [0;33;1mNo address was available - using localhost as fallback. Set up 'Alternative_IP' settings.[m
+[18:43:31] [Craft Scheduler Thread - 0/INFO]: [0;37;1m[0;37;1m[0;32;22mServer page: [0;37;1m[0;37;1m[0;37;1mhttp://localhost:8804/server/Plan[0;37;1m[0;37;1mhttp://localhost:8804/server/Plan[m
+[18:45:15] [User Authenticator #1/INFO]: UUID of player Akaere is c0c7e8cf-107f-4b59-bc91-f82c643de9d0
+[18:45:15] [Server thread/INFO]: Akaere[/171.88.12.60:56055] logged in with entity id 2 at ([world]1697.300000011921, 97.0, 744.5724814067073)
+[18:45:15] [Plan Non critical-pool-2/WARN]: [Plan] Ran into DataExtensionMethodCallException - logged to plugins/Plan/logs/DataExtensionMethodCallException-34d8cc0f4b.txt
+[18:45:15] [Plan Non critical-pool-2/WARN]: [Plan] (INCLUDE CONTENTS OF THE FILE IN ANY REPORTS)
+[18:45:15] [Plan Non critical-pool-2/WARN]: [Plan] What to do: Report and/or disable BanManager extension in the Plan config.
+[18:45:15] [Plan Non critical-pool-2/WARN]: [Plan] Ran into DataExtensionMethodCallException - logged to plugins/Plan/logs/DataExtensionMethodCallException-a9f2513b86.txt
+[18:45:15] [Plan Non critical-pool-2/WARN]: [Plan] (INCLUDE CONTENTS OF THE FILE IN ANY REPORTS)
+[18:45:15] [Plan Non critical-pool-2/WARN]: [Plan] What to do: Report and/or disable BanManager extension in the Plan config.
+[18:51:35] [Server thread/INFO]: Akaere lost connection: Internal Exception: java.io.IOException: Error while read(...): Connection reset by peer
+[18:51:35] [Server thread/INFO]: Akaere left the game.
+[18:52:05] [Server thread/INFO]: Stopping server
+[18:52:05] [Server thread/INFO]: [Plan] Disabling Plan v5.4 build 1722
+[18:52:05] [Server thread/INFO]: [Plan] Processing complete.
+[18:52:05] [Server thread/INFO]: [Plan] Waiting for unfinished transactions to avoid data loss..
+[18:52:05] [Server thread/INFO]: [Plan] Transaction queue closed.
+[18:52:05] [Server thread/INFO]: [Plan] Waiting queries to finish to avoid SQLite crashing JVM..
+[18:52:05] [Server thread/INFO]: [Plan] Closed SQLite connection.
+[18:52:05] [Server thread/INFO]: [Plan] Webserver has been disabled.
+[18:52:05] [Server thread/INFO]: [Plan] Player Analytics Disabled.
+[18:52:05] [Server thread/INFO]: [BanManager] Disabling BanManager v7.8.0
+[18:52:05] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v4.3.1
+[18:52:05] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling, if this is a reload and you experience issues consider rebooting.
+[18:52:05] [Server thread/INFO]: Saving players
+[18:52:05] [Server thread/INFO]: Saving worlds
+[18:52:05] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[18:52:05] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[18:52:05] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End

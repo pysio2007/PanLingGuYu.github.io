@@ -1,0 +1,82 @@
+34d8cc0f4b - Last occurred: 2022-07-25 Occurrences: 1
+---- Context 1 ----
+Plan v5.4 build 1722
+CraftBukkit git-PaperSpigot-07ff818-0a645a2 (MC: 1.8.3)
+Server v1.8.3-R0.1-SNAPSHOT
+
+Report and/or disable BanManager extension in the Plan config.
+BanManager
+Method:isMuted
+
+---- Stacktrace ----
+com.djrapitops.plan.exceptions.DataExtensionMethodCallException: BanManager.isMuted errored: java.lang.NullPointerException
+   com.djrapitops.plan.extension.implementation.providers.MethodWrapper.callMethod(MethodWrapper.java:56)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.callMethod(DataValueGatherer.java:288)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.lambda$tryToBuildBoolean$6(DataValueGatherer.java:267)
+   com.djrapitops.plan.extension.implementation.builder.BuiltDataValue.getValue(BuiltDataValue.java:48)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.getValue(DataValueGatherer.java:391)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.storePlayerBoolean(DataValueGatherer.java:459)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.lambda$gatherPlayer$8(DataValueGatherer.java:322)
+   java.util.Optional.ifPresent(Optional.java:159)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.gatherPlayer(DataValueGatherer.java:322)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.updateValues(DataValueGatherer.java:302)
+   com.djrapitops.plan.extension.ExtensionSvc.updatePlayerValues(ExtensionSvc.java:171)
+   com.djrapitops.plan.extension.ExtensionSvc.updatePlayerValues(ExtensionSvc.java:156)
+   com.djrapitops.plan.gathering.listeners.bukkit.PlayerOnlineListener.lambda$actOnJoinEvent$3(PlayerOnlineListener.java:208)
+   com.djrapitops.plan.processing.Processing.lambda$submitNonCritical$1(Processing.java:78)
+   java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1604)
+   java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+   java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+   java.lang.Thread.run(Thread.java:750)
+Caused by:
+java.lang.reflect.InvocationTargetException
+   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+   java.lang.reflect.Method.invoke(Method.java:498)
+   com.djrapitops.plan.extension.implementation.providers.Parameters$PlayerParameters.usingOn(Parameters.java:97)
+   com.djrapitops.plan.extension.implementation.providers.MethodWrapper.callMethod(MethodWrapper.java:50)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.callMethod(DataValueGatherer.java:288)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.lambda$tryToBuildBoolean$6(DataValueGatherer.java:267)
+   com.djrapitops.plan.extension.implementation.builder.BuiltDataValue.getValue(BuiltDataValue.java:48)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.getValue(DataValueGatherer.java:391)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.storePlayerBoolean(DataValueGatherer.java:459)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.lambda$gatherPlayer$8(DataValueGatherer.java:322)
+   java.util.Optional.ifPresent(Optional.java:159)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.gatherPlayer(DataValueGatherer.java:322)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.updateValues(DataValueGatherer.java:302)
+   com.djrapitops.plan.extension.ExtensionSvc.updatePlayerValues(ExtensionSvc.java:171)
+   com.djrapitops.plan.extension.ExtensionSvc.updatePlayerValues(ExtensionSvc.java:156)
+   com.djrapitops.plan.gathering.listeners.bukkit.PlayerOnlineListener.lambda$actOnJoinEvent$3(PlayerOnlineListener.java:208)
+   com.djrapitops.plan.processing.Processing.lambda$submitNonCritical$1(Processing.java:78)
+   java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1604)
+   java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+   java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+   java.lang.Thread.run(Thread.java:750)
+Caused by:
+java.lang.NullPointerException
+   me.confuser.banmanager.common.api.BmAPI.isMuted(BmAPI.java:289)
+   com.djrapitops.extension.BanManagerExtension.isMuted(BanManagerExtension.java:136)
+   sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+   sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+   sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+   java.lang.reflect.Method.invoke(Method.java:498)
+   com.djrapitops.plan.extension.implementation.providers.Parameters$PlayerParameters.usingOn(Parameters.java:97)
+   com.djrapitops.plan.extension.implementation.providers.MethodWrapper.callMethod(MethodWrapper.java:50)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.callMethod(DataValueGatherer.java:288)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.lambda$tryToBuildBoolean$6(DataValueGatherer.java:267)
+   com.djrapitops.plan.extension.implementation.builder.BuiltDataValue.getValue(BuiltDataValue.java:48)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.getValue(DataValueGatherer.java:391)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.storePlayerBoolean(DataValueGatherer.java:459)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.lambda$gatherPlayer$8(DataValueGatherer.java:322)
+   java.util.Optional.ifPresent(Optional.java:159)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.gatherPlayer(DataValueGatherer.java:322)
+   com.djrapitops.plan.extension.implementation.providers.gathering.DataValueGatherer.updateValues(DataValueGatherer.java:302)
+   com.djrapitops.plan.extension.ExtensionSvc.updatePlayerValues(ExtensionSvc.java:171)
+   com.djrapitops.plan.extension.ExtensionSvc.updatePlayerValues(ExtensionSvc.java:156)
+   com.djrapitops.plan.gathering.listeners.bukkit.PlayerOnlineListener.lambda$actOnJoinEvent$3(PlayerOnlineListener.java:208)
+   com.djrapitops.plan.processing.Processing.lambda$submitNonCritical$1(Processing.java:78)
+   java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1604)
+   java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+   java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+   java.lang.Thread.run(Thread.java:750)

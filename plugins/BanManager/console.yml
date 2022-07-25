@@ -1,0 +1,4 @@
+# This is used to identify the server when it makes bans etc
+# Do not change the uuid, it is generated automatically!
+name: Console
+uuid: 7ce426d8-bbc8-4f91-959e-e2ab004e30a1
